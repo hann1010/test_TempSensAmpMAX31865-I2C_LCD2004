@@ -78,7 +78,7 @@ void setup()   /*----( SETUP: RUNS ONCE )----*/
   lcd.backlight(); // finish with backlight on 
  
 //-------- Write characters on the display ----------------
-// NOTE: Cursor Position: CHAR, LINE) start at 0 
+  // NOTE: Cursor Position: CHAR, LINE) start at 0 
   lcd.setCursor(3,0); //Start at character 4 on line 0
   lcd.print("Hello, world!");
   delay(5000);
