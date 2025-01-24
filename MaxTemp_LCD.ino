@@ -67,7 +67,7 @@ void setup()   /*----( SETUP: RUNS ONCE )----*/
 
   max.begin(MAX31865_2WIRE);  // set to 2WIRE or 4WIRE as necessary
   max2.begin(MAX31865_2WIRE); 
-// ------- Quick 5 blinks of backlight  -------------
+  // ------- Quick 5 blinks of backlight  -------------
   for(int i = 0; i< 5; i++)
   {
     lcd.backlight();
