@@ -1,5 +1,6 @@
 
-/*Testing LCD via IIC bus and MAX31865 - PT100 temerature probe */
+/*Testing LCD via IIC bus and MAX31865 - PT100 temerature probe
+  Hanna P 2020-2025 */
 
 /*-----( Import needed libraries )-----*/
 #include <Wire.h>  // Comes with Arduino IDE
