@@ -91,7 +91,7 @@ void setup()   /*----( SETUP: RUNS ONCE )----*/
   delay(2000);   
   lcd.print("http://YourDuino.com");
   delay(8000);
-// Wait and then tell user they can start the Serial Monitor and type in characters to
+  // Wait and then tell user they can start the Serial Monitor and type in characters to
 // Display. (Set Serial Monitor option to "No Line Ending")
   lcd.setCursor(0,0); //Start at character 0 on line 0
   lcd.print("Start Serial Monitor");
