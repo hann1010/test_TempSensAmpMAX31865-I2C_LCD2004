@@ -59,7 +59,6 @@ Adafruit_MAX31865 max2 = Adafruit_MAX31865(9, 11, 12, 13);
 void setup()   /*----( SETUP: RUNS ONCE )----*/
 {
   Serial.begin(9600);  // Used to type in characters
-
   lcd.begin(20,4);         // initialize the lcd for 20 chars 4 lines and turn on backlight
   
   
