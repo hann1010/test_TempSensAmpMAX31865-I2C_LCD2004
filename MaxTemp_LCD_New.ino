@@ -61,7 +61,6 @@ void setup()   /*----( SETUP: RUNS ONCE )----*/
   Serial.begin(9600);  // Used to type in characters
   lcd.begin(20,4);         // initialize the lcd for 20 chars 4 lines and turn on backlight
   
-  
   Serial.println("Adafruit MAX31865 PT100 Sensor Test!");
 
   max.begin(MAX31865_2WIRE);  // set to 2WIRE or 4WIRE as necessary
