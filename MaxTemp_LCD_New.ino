@@ -101,7 +101,7 @@ void setup()   /*----( SETUP: RUNS ONCE )----*/
 
 void loop()   /*----( LOOP: RUNS CONSTANTLY )----*/
 {
-    uint16_t rtd = max.readRTD();
+  uint16_t rtd = max.readRTD();
    
   Serial.print("RTD value: "); Serial.println(rtd);
   float ratio = rtd;
