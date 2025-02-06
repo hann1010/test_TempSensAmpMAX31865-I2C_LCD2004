@@ -105,7 +105,6 @@ void loop()   /*----( LOOP: RUNS CONSTANTLY )----*/
    
   Serial.print("RTD value: "); Serial.println(rtd);
   float ratio = rtd;
-  
   ratio /= 32768;
   
   Serial.print("Ratio = "); Serial.println(ratio,8);
